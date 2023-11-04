@@ -23,6 +23,8 @@ use
 1) api/register (parameters: name, email, password, password_confirmation)
 2) api/login (parameters: email, password)
 
+Add OPEN_AI_API_KEY='your-token' in .env
+
 $apiDriverFactory = new ApiDriverFactory();
 $apiDriver = $apiDriverFactory->create('real-time');
 $response = $apiDriver->sendRequest(new ChatGptApiParameter('your-message-to-chatgpt'));
