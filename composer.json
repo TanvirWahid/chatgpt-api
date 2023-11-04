@@ -1,5 +1,5 @@
 {
-    "name": "tanvir/chatgpt-api",
+    "name": "tanvirwahid/chatgpt-api",
     "type": "library",
     "autoload": {
         "psr-4": {
