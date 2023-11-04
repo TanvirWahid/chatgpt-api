@@ -1,0 +1,13 @@
+{
+    "name": "tanvir/chatgpt-api",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tanvir\\ChatgptApi\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
