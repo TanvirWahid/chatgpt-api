@@ -17,6 +17,12 @@ Run php artisan migrate
 
 USAGE:
 
+For login and registration
+
+use
+1) api/register (parameters: name, email, password, password_confirmation)
+2) api/login (parameters: email, password)
+
 $apiDriverFactory = new ApiDriverFactory();
 $apiDriver = $apiDriverFactory->create('real-time');
 $response = $apiDriver->sendRequest(new ChatGptApiParameter('your-message-to-chatgpt'));
