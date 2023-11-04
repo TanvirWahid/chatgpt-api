@@ -17,11 +17,15 @@ Run php artisan migrate
 
 USAGE:
 
+AUTHENTICATION:
+
 For login and registration
 
 use
 1) api/register (parameters: name, email, password, password_confirmation)
 2) api/login (parameters: email, password)
+
+CHAT GPT API:
 
 Add OPEN_AI_API_KEY='your-token' in .env
 
