@@ -26,7 +26,7 @@ class ChatGptApiDriver implements ApiCommunicatorInterface
                 'messages' => [
                     [
                         'role' => 'user',
-                        'content' => 'Hello',
+                        'content' => $apiParameter->getPrompt(),
                     ],
                 ],
             ]);
